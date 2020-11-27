@@ -16,7 +16,7 @@ make && make install
 
 cd /app/.heroku/php
 wget http://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib_1.2.8.dfsg.orig.tar.gz
-tar -xzvf azlib_1.2.8.dfsg.orig
-cd azlib_1.2.8.dfsg.orig
+tar -xzvf zlib_1.2.8.dfsg.orig
+cd zlib_1.2.8.dfsg.orig
 ./configure --prefix=/app/.heroku/php
 make && make install
