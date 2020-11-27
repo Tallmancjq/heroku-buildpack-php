@@ -719,10 +719,6 @@ relbins=$(cat $bp_dir/composer.json | python -c 'from __future__ import print_fu
 cd $build_dir/$composer_bindir
 ln -fs $relbins .
 
-
-source $bp_dir/bin/util/app.sh
-
-
 cd $build_dir
 
 if [[ ! -f "Procfile" ]]; then
